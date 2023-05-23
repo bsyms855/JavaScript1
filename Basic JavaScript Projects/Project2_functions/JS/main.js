@@ -1,5 +1,4 @@
-function testId("demo", friend_data["demo"].name ){
-    alert("demo");
-    alert(friend_data[i].name);     
+function testId(){
+    var word="Bird";
+document.getElementById("demo").innerHTML=word+=" is the word";    
 }
-document.getElementById("demo");
