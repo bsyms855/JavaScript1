@@ -16,5 +16,13 @@ function divideMethod(){
 }
 function mathRandom(){
     var mathRandom = math.random()*10;
-    document.getElementById("mathRandom").innerHTML = "" + mathRandom;
+    document.getElementById("mathRandom").innerHTML = "" + mathRandomMethod;
+}
+function plusplusMethod(){
+    var plusplusMethod = 3 + 3 + 3;
+    document.getElementById("plusplus").innerHTML = "3 plus 3 plus 3 = " + minusminusMethod;
+}
+function minusminusMethod(){
+    var minusminusMethod = 4 - 4 - 4;
+    document.getElementById("minusminus").innerHTML = "4 minus 4 minus 4 = " + minusminusMethod;
 }
