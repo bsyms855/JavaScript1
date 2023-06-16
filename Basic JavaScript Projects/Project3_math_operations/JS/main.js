@@ -20,7 +20,7 @@ function mathRandom(){
 }
 function plusplusMethod(){
     var plusplusMethod = 3 + 3 + 3;
-    document.getElementById("plusplus").innerHTML = "3 plus 3 plus 3 = " + minusminusMethod;
+    document.getElementById("plusplus").innerHTML = "3 plus 3 plus 3 = " + plusplusMethod;
 }
 function minusminusMethod(){
     var minusminusMethod = 4 - 4 - 4;
